@@ -72,3 +72,56 @@ p {
     background-color: #f0f0f0;
     color: #666;
 }
+/* about page styles */
+#about {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+#about h2 {
+    color: #333;
+}
+
+/* contact page styles */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #444;
+}
