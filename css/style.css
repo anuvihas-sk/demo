@@ -29,18 +29,19 @@ body {
 h1 {
     font-size: 90px;
     font-weight: bold;
-    color: red;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif !important; /* Ensuring font takes precedence */
 }
 
 .highlight {
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p {
     font-size: 30px;
     line-height: 1.6;
-
+    color: black;
+    font-weight: bold;
 }
 
 .image-section {
