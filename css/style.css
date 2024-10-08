@@ -98,8 +98,8 @@ h1, p {
     object-fit: cover;
 }
 .carousel-img {
-    object-fit: cover; /* Ensures the image fills the container */
-    height: 400px;     /* Adjust the height based on the size you want */
+    object-fit: fill; /* Ensures the image fills the container */
+    height: 100px;     /* Adjust the height based on the size you want */
 }
 
 .carousel-control-prev-icon,
