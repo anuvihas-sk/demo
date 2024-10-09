@@ -42,15 +42,6 @@ body {
     transform: scale(1.05);
 }
 
-.project-vision {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #f39c12;
-    text-transform: uppercase;
-    margin-bottom: 0; /* Remove margin-bottom to position it better */
-    padding-bottom: 30px;
-}
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: #FF6600;
@@ -196,4 +187,24 @@ img.img-fluid {
 .img-g{
     height: 500px;
     width: 200px;
+}
+
+.project-title {
+    font-size: 3rem; /* Adjust font size for the title */
+    color: #FF9300; /* Color for the title (matching the image design) */
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    max-width: 100%; /* Ensures the image scales responsively */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.project-description {
+    font-size: 1.25rem; /* Adjust font size for the paragraph */
+    color: #333; /* Darker color for the paragraph text */
+    line-height: 1.6; /* Improved readability */
+    margin-top: 10px;
 }
