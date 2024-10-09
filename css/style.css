@@ -33,6 +33,10 @@ body {
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
+.img-fluid{
+    width: 100vh;
+    height: 80vh;
+}
 
 .photo-box:hover {
     transform: scale(1.05);
