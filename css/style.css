@@ -56,3 +56,64 @@ body {
     background-color: #FF6600;
     border-radius: 50%;
 }
+.pv {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    color: #333; /* Set text color */
+    line-height: 1.6; /* Improve readability */
+    width: 150vh; /* Set width to 100% */
+    margin-left: -300px;
+}
+
+.img-pv {
+    max-width: 100vh; /* Ensures the image doesn't exceed its container */
+    height: 50vh; /* Maintain aspect ratio */
+    margin: -10px -150px; /* Center the image horizontally */
+    display: block; /* Makes the image block-level for centering */
+}
+/* .roadmap-section {
+    background-color: #fff176; /* Yellow background */
+    color: #000;
+} */
+
+.roadmap-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.milestone-cards .card {
+    border: none;
+    background: none;
+}
+
+.milestone-cards .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Tokenomics Section */
+/* .tokenomics-section {
+    background-color: #ffeb3b; /* Light yellow */
+    /* color: #000;
+}  */
+
+.token-item {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.token-item h3 {
+    font-size: 1.8rem;
+}
+
+.token-item p {
+    font-size: 1.4rem;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
