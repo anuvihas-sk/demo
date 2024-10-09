@@ -47,7 +47,11 @@ body {
     font-weight: bold;
     color: #f39c12;
     text-transform: uppercase;
+    margin-bottom: 0; /* Remove margin-bottom to position it better */
+    align-self: flex-end; /* Align text to the bottom of the container */
+    padding-bottom: 30px;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: #FF6600;
