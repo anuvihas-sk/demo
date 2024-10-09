@@ -147,3 +147,49 @@ img.img-fluid {
     color: white;
     font-weight: bold;
 }
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FF9900;
+    margin-bottom: 1.5rem;
+}
+
+.game-previews-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.social-media-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.social-media-section img {
+    max-width: 100%;
+}
+
+.social-media-box {
+    background-color: #4a90e2;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.social-media-box a {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.social-media-box a i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
