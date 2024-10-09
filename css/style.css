@@ -44,3 +44,8 @@ body {
     color: #f39c12;
     text-transform: uppercase;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #FF6600;
+    border-radius: 50%;
+}
