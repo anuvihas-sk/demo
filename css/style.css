@@ -128,11 +128,11 @@ img.img-fluid {
     border-radius: 20px;
 }
 .games-section {
-    background-color: #FFC600;
+    /* background-color: #FFC600; */
     padding: 50px 0;
 }
 .merchandise-section {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     padding: 50px 0;
 }
 .game-image {
@@ -156,12 +156,12 @@ img.img-fluid {
 }
 
 .game-previews-section {
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 50px 0;
 }
 
 .social-media-section {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 50px 0;
     text-align: center;
 }
@@ -192,4 +192,8 @@ img.img-fluid {
 .social-media-box a i {
     font-size: 1.5rem;
     margin-right: 10px;
+}
+.img-g{
+    height: 500px;
+    width: 200px;
 }
