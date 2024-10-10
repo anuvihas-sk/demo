@@ -73,7 +73,9 @@ body {
 
 .milestone-cards .card {
     border: none;
-    background: none;
+    background-color: #8B52FF;
+    height: 500px;
+
 }
 
 .milestone-cards .card-title {
@@ -208,4 +210,43 @@ img.img-fluid {
     color: #333; /* Darker color for the paragraph text */
     line-height: 1.6; /* Improved readability */
     margin-top: 10px;
+}
+.img-over{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the image */
+    max-width: 100%;
+    height: auto; /* Keeps the aspect ratio */
+}
+/* Style for the carousel images and button */
+.game-previews-section .carousel-inner {
+    position: relative;
+}
+
+.game-previews-section .game-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.discover-btn {
+    position: absolute;
+    bottom: 20px; /* Adjust the bottom position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Ensure it's above the image */
+    background-color: #8B52FF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.discover-btn:hover {
+    background-color:#8B52FF; /* Darker orange on hover */
 }
