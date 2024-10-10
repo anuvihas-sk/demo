@@ -1,9 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background: radial-gradient(42.38% 44.19% at 50.14% 67.33%, #FFF280 0%, #FFC700 100%);
-
+    background: linear-gradient(190deg, rgba(255, 199, 0, 1) 0%, rgba(255, 199, 0, 1) 20%, white 20%, white 70%, rgba(255, 199, 0, 1) 70%, rgba(255, 199, 0, 1) 100%);
 }
-
 .history-title {
     font-size: 2.5rem;
     font-weight: bold;
@@ -190,6 +188,7 @@ img.img-fluid {
 .img-g{
     height: 500px;
     width: 200px;
+    border-radius: 20px;
 }
 
 .project-title {
@@ -250,3 +249,4 @@ img.img-fluid {
 .discover-btn:hover {
     background-color:#8B52FF; /* Darker orange on hover */
 }
+
